@@ -9,7 +9,7 @@ Console.Write("Ищем = ");
 Console.WriteLine(find);
 Console.Write("Массив: ");
 
-while(index < count )
+while (index < count)
 {
     array[index] = new Random().Next(1, 101);
     Console.Write(array[index] + " ");
@@ -17,12 +17,21 @@ while(index < count )
 }
 
 index = 0;
-while(index < count)
+bool flage = true;
+
+while (index < count)
 {
-    if(array[index] == find)
+    if (array[index] =/= find)
     {
-        Console.WriteLine("\n Такой элемент есть ");
+   
+    }
+    else
+    {
+    
     }
     index++;
 }
+
+Console.WriteLine("\n Такой элемент есть ");
+Console.WriteLine("\nТакого числа нет");
 Console.WriteLine("\n END");
