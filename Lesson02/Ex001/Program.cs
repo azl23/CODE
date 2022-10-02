@@ -4,7 +4,8 @@
 // 8 -> 2, 4, 6, 8
 
 int start = 2;
-int n = 10;
+Console.Write("Введите n ");
+int n = Convert.ToInt32(Console.ReadLine());
 
 while(start <= n )
 {
