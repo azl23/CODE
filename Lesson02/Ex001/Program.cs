@@ -5,7 +5,7 @@
 
 int start = 2;
 Console.Write("Введите n ");
-int n = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine()); //читает вывод
 
 while(start <= n )
 {

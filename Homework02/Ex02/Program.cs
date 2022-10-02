@@ -11,7 +11,4 @@ int Prompt(string messege)
     return result;                           // Возвращает результат
 }
 
-int number;
-number = Prompt("Введите трехзначное число ");
-int result = (number % 10);
-Console.WriteLine($"Третья цифра чила {number} является {result}");
+int[] array = {6, 4, 5};
