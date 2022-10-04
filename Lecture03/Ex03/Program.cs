@@ -28,8 +28,7 @@ Console.WriteLine();
 newText = Replace(newText, 'к', 'К');
 Console.WriteLine(newText);
 Console.WriteLine();
-newText = Replace(newText, 'C', 'c');
-Console.WriteLine(newText);
+
 
 
 
