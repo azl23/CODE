@@ -50,7 +50,8 @@ int[] Perevorot(int[] array)
 int[] arr = Create(12);
 Fill(arr, -9, 9);
 Console.WriteLine(Print(arr));
-Console.WriteLine(Perevorot(arr));
+Console.WriteLine(Print(Perevorot(arr)));
+
 
 
 
